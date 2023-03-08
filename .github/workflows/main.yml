@@ -17,7 +17,7 @@ jobs:
 
       - name: Prepare and deploy
         env:
-          GETHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GETHUB_TOKEN: ${{secrets.TOKEN_GITHUB}}
         run: |
           npm install
           npm run ng -- deploy --no-silent
