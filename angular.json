@@ -121,7 +121,12 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/a3541336/alex.github.io.git",
+            "name":"Alex",
+            "email":"a3541336@gmail.com"
+          }
         }
       }
     }
