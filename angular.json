@@ -121,12 +121,7 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "baseHref": "/TodoList/",
-            "name":"Alex",
-            "email":"a3541336@gmail.com"
-          }
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
