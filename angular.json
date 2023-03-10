@@ -123,7 +123,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "/todo-list/",
+            "baseHref": "/TodoList/",
             "name": "Mandy",
             "email": "123@123.com"
           }
